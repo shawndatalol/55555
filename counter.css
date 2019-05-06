@@ -1,0 +1,1147 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+body {
+  font-family: '微軟正黑體', arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+.header{
+  font-family: "Helvetica",
+  "Arial",
+  "LiHei Pro",
+  "黑體-繁",
+  "SimHei",
+  sans-serif;
+  text-align: center;
+  width: 1410px;
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 40px;
+  color: rgb(31, 50, 65);
+  font-weight: 600;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content{
+  width: 1410px; 
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(248, 245, 241, 0.925);
+  border-radius: 10PX;
+  border: 2px rgb(29, 29, 29) solid;
+}
+.content1 {
+  width: 1410px;
+  padding: 10px;
+  margin-top: -40px;
+  text-align: center;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10PX;
+}
+
+
+.content #box {
+  font-family: '微軟正黑體',arial,sans-serif;
+  margin-top: 0px;
+  margin-left: 0PX;
+  margin-right: auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+  padding-top: 10px;
+  font: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px rgb(29, 29, 29) solid;
+}
+
+.content .backScreen {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #232323;
+  border-radius: 10%;
+  text-align:center;
+}
+
+#point
+/*數字*/
+  {
+  text-align: center;
+  margin-top:  15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+#incrementButton {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#resetButton {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrementButton {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+.content .buttons {
+  text-align: center;
+  width: 150px;
+  height: 0px;
+  margin-left: -50PX;
+  margin-right: auto;
+  background-color: antiquewhite;
+
+}
+.content #box1 {
+  font-family: '微軟正黑體', arial, sans-serif;
+  margin-top: -152px;
+  margin-left: 170PX;
+  margin-right: auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+  padding-top: 10px;
+  font: 5px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px rgb(29, 29, 29) solid;
+  
+}
+.content .backScreen1 {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #232323;
+  border-radius: 10%;
+  text-align:center;
+}
+
+#point1
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.content .button1s {
+  text-align: center;
+  width: 150px;
+  height: 0px;
+  margin-left: -50PX;
+  margin-right: auto;
+  background-color: antiquewhite;
+
+}
+
+#increment1Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset1Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement1Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+
+#point2
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment2Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset2Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement2Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point3
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment3Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset3Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement3Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point4
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment4Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset4Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement4Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point5
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment5Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset5Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement5Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point6
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment6Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset6Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement6Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point7
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment7Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset7Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement7Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point8
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment8Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset8Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement8Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point9
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment9Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset9Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement9Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+
+#point10
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment10Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset10Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement10Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point11
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment11Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset11Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement11Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point12
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment12Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset12Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement12Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point13
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment13Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset13Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement13Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point14
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment14Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset14Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement14Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#point15
+
+/*數字*/
+  {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#increment15Button {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset15Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement15Button {
+  background-color: #EEEEEE;
+  border-radius: 1px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#工單號碼 {
+  margin-top: 8px;
+  margin-right: auto;
+  margin-left: 0px;
+  width: 100px;
+  font-size: 12px;
+  font-family: '微軟正黑體';
+  font-weight: bold;
+  height: auto;
+  text-align: center;
+  height: auto;
+  margin-right: right;
+  
+}
+#ordernumber {
+  width: 160px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 2px;
+  text-align: center;
+  height: auto;
+  margin-right: right;
+
+  
+
+}
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(250, 235, 235, 0);
+  opacity: 0.5;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#words {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: -100px;
+}
+#words1 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體',arial,sans-serif;
+  top: 50%;
+  margin-top: 35px;
+  margin-left: 90px;
+  margin-right: -100px;
+}
+#words2 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體',arial,sans-serif;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 315px;
+  margin-right: -100px;
+}
+#words3 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體',arial,sans-serif;
+  top: 50%;
+  margin-top: 35px;
+  margin-left: 290px;
+  margin-right: -100px;
+}
+
+#words4 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體',arial,sans-serif;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 447px;
+  margin-right: -100px;
+}
+#words5 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 35px;
+  margin-left: 430px;
+  margin-right: -100px;
+}
+#words6 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 592px;
+  margin-right: -100px;
+}
+#words7 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 35px;
+  margin-left: 560px;
+  margin-right: -100px;
+}
+#words8 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 753px;
+  margin-right: -100px;
+}
+#words9 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 35px;
+  margin-left: 754px;
+  margin-right: -100px;
+}
+#words10 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 900px;
+  margin-right: -100px;
+}
+#words11 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 35px;
+  margin-left: 865px;
+  margin-right: -100px;
+}
+#words12 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 1032px;
+  margin-right: -100px;
+}
+#words13 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 35px;
+  margin-left: 1027px;
+  margin-right: -100px;
+}
+#words14 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 1192px;
+  margin-right: -100px;
+}
+#words15 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: '微軟正黑體', arial, sans-serif;
+  top: 50%;
+  margin-top: 35px;
+  margin-left: 1192px;
+  margin-right: -100px;
+}
+.imgw {
+  position: relative;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.imgw img {
+  transform: scale(1, 1);
+  transition: all 1s ease-out;
+}
+
+.imgw img:hover {
+  transform: scale(1.2, 1.2);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff url(img/inwinlogo1.png) center center fixed no-repeat;
+  /*設定背景圖片的呈現方式*/
+  background-size: contain; /*設定背景圖片的填滿方式*/
+
+
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,
+strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,
+footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,
+
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+#字型 {
+  font-size: 23px;
+  font-weight: bold;
+}
+#字型1 {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,aside,details,figcaption,figure,footer,header,
+hgroup,menu,nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

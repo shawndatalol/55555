@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=9,IE=10,IE=11,IE=EDGE" />
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>In-Win counter</title>
+    <link rel="shortcut icon" href="img/inwinlogo.png"style="width:5px;height:5px;">
+    <link rel="stylesheet" href="counter.css">
+    <link rel="stylesheet" href="css/phone.css">
+  </head>
+  <style type="text/css">
+    img {margin: 43px;}
+  </style>
+    <style type="text/css">
+    </style>
+  <body>
+    <div class="header">
+      迎廣不良品紀錄系統
+    </div>
+    <div class="content1">
+    <div class="imgw">
+        <a href="img/壓傷.jpg"><img src="img/壓傷1.jpg" ,border="2"></a><a href="img/變形.jpg"><img src="img/變形1.jpg" ,border="2"></a><a href="img/尺寸不符.jpg"><img src="img/尺寸不符1.jpg" ,border="2"></a><a href="img/層間磨擦.jpg"><img src="img/層間磨擦1.jpg" ,border="2"></a><a href="img/毛邊.jpg"><img src="img/毛邊1.jpg" ,border="2"></a><a href="img/油汙.jpg"><img src="img/油汙1.jpg" ,border="2"></a><a href="img/攻牙不良.jpg"><img src="img/攻牙不良1.jpg" ,border="2"></a><a href="img/其他.jpg"><img src="img/其他.jpg" ,border="2"></a>
+          <div id="words">壓痕/壓傷</div><div id="words2">變形</div><div id="words4">尺寸不符</div><div id="words6">層間磨擦</div><div id="words8">毛邊</div><div id="words10">油汙</div><div id="words12">攻牙不良</div><div id="words14">其他</div>
+          <div id="words1">รอยกด/บาดเจ็บจากการกด</div><div id="words3">รูปร่างเปลี่ยน</div><div id="words5">ขนาดไม่ตรงกัน</div><div id="words7">ระหว่างชั้นเสียดสีกัน</div><div id="words9">ขอบ</div><div id="words11">น้ำมันสิ่งสกปรก</div><div id="words13">กงหยาไม่ดี</div><div id="words15">อื่นๆ</div>
+</div>
+</div>
+    <h1>
+          <div id='工單號碼'>工單號碼</div>
+        <div id='工單號碼'><input type="text" id='ordernumber' name="工單號" onkeyup="value=value.replace(/[\W]/g,'') "
+            onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" 　　
+            ID="Text1" NAME="Text1"></div>
+    <div class="content">
+      <div id="box">
+          <div id='字型'>壓痕/壓傷</div>
+          <div id='字型1'>รอยกด/บาดเจ็บจากการกด</div>
+        <div class="backScreen">
+          <span id="point">0</span>
+        <div class="buttons">
+            <input type="button" id='discrementButton' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='resetButton' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='incrementButton' value="+1" style="width:30px;height:25px;">
+       <div id="box1">
+         <div id='字型'>變形</div>
+          <div id='字型1'>รูปร่างเปลี่ยน</div>
+        <div class="backScreen1"> 
+           <span id="point1">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement1Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset1Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment1Button' value="+1" style="width:30px;height:25px;">
+       <div id="box1">
+         <div id='字型'>尺寸不符</div>
+        <div id='字型1'>ขนาดไม่ตรงกัน</div>
+        <div class="backScreen1">
+           <span id="point2">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement2Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset2Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment2Button' value="+1" style="width:30px;height:25px;">
+         <div id="box1">
+         <div id='字型'>層間磨擦</div>
+        <div id='字型1'>ระหว่างชั้นเสียดสีกัน</div>
+        <div class="backScreen1">
+           <span id="point3">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement3Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset3Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment3Button' value="+1" style="width:30px;height:25px;">
+         <div id="box1">
+         <div id='字型'>毛邊</div>
+        <div id='字型1'>ขอบ</div>
+        <div class="backScreen1">
+           <span id="point4">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement4Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset4Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment4Button' value="+1" style="width:30px;height:25px;">
+          <div id="box1">
+         <div id='字型'>油汙</div>
+        <div id='字型1'>น้ำมันสิ่งสกปรก</div>
+        <div class="backScreen1">
+           <span id="point5">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement5Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset5Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment5Button' value="+1" style="width:30px;height:25px;">
+          <div id="box1">
+          <div id='字型'>攻牙不良</div>
+          <div id='字型1'>กงหยาไม่ดี</div>
+        <div class="backScreen1">
+           <span id="point6">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement6Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset6Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment6Button' value="+1" style="width:30px;height:25px;">
+                    <div id="box1">
+          <div id='字型'>其他</div>
+          <div id='字型1'>อื่นๆ</div>
+        <div class="backScreen1">
+           <span id="point7">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement7Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset7Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment7Button' value="+1" style="width:30px;height:25px;">
+            </h1>
+            <h2>
+        <div id='工單號碼'>工單號碼</div>
+          <div id='工單號碼'><input type="text" id='ordernumber' name="工單號" onkeyup="value=value.replace(/[\W]/g,'') "
+          onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"ID="Text1"NAME="Text1"></div>
+        <div class="content">
+    <div id="box">
+      <div id='字型'>壓痕/壓傷</div>
+      <div id='字型1'>รอยกด/บาดเจ็บจากการกด</div>
+      <div class="backScreen">
+         <span id="point8">0</span>
+         <div class="buttons">
+            <input type="button" id='discrement8Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset8Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment8Button' value="+1" style="width:30px;height:25px;">
+            <div id="box1">
+           <div id='字型'>變形</div>
+           <div id='字型1'>รูปร่างเปลี่ยน</div>
+           <div class="backScreen1">
+           <span id="point9">0</span>
+           <div class="buttons">
+             <input type="button" id='discrement9Button' value="-1" style="width:30px;height:25px;">
+             <input type="button" id='reset9Button' value="RESET" style="width:65px;height:25px;">
+             <input type="button" id='increment9Button' value="+1" style="width:30px;height:25px;">
+             <div id="box1">
+           <div id='字型'>尺寸不符</div>
+           <div id='字型1'>ขนาดไม่ตรงกัน</div>
+           <div class="backScreen1">
+           <span id="point10">0</span>
+              <div class="buttons">
+               <input type="button" id='discrement10Button' value="-1" style="width:30px;height:25px;">
+               <input type="button" id='reset10Button' value="RESET" style="width:65px;height:25px;">
+               <input type="button" id='increment10Button' value="+1" style="width:30px;height:25px;">
+             <div id="box1">
+              <div id='字型'>層間磨擦</div>
+               <div id='字型1'>ระหว่างชั้นเสียดสีกัน</div>
+               <div class="backScreen1">
+               <span id="point11">0</span>
+                  <div class="buttons">
+                <input type="button" id='discrement11Button' value="-1" style="width:30px;height:25px;">
+                <input type="button" id='reset11Button' value="RESET" style="width:65px;height:25px;">
+                <input type="button" id='increment11Button' value="+1" style="width:30px;height:25px;">
+             <div id="box1">
+                 <div id='字型'>毛邊</div>
+                 <div id='字型1'>ขอบ</div>
+                 <div class="backScreen1">
+                <span id="point12">0</span>
+                  <div class="buttons">
+                  <input type="button" id='discrement12Button' value="-1" style="width:30px;height:25px;">
+                  <input type="button" id='reset12Button' value="RESET" style="width:65px;height:25px;">
+                  <input type="button" id='increment12Button' value="+1" style="width:30px;height:25px;">
+               <div id="box1">
+                   <div id='字型'>油汙</div>
+                   <div id='字型1'>น้ำมันสิ่งสกปรก</div>
+                   <div class="backScreen1">
+                   <span id="point13">0</span>
+                   <div class="buttons">
+                   <input type="button" id='discrement13Button' value="-1" style="width:30px;height:25px;">
+                   <input type="button" id='reset13Button' value="RESET" style="width:65px;height:25px;">
+                   <input type="button" id='increment13Button' value="+1"style="width:30px;height:25px;">
+               <div id="box1">
+                   <div id='字型'>攻牙不良</div>
+                   <div id='字型1'>กงหยาไม่ดี</div>
+                   <div class="backScreen1">
+                   <span id="point14">0</span>
+                   <div class="buttons">
+                   <input type="button" id='discrement14Button' value="-1"style="width:30px;height:25px;">
+                   <input type="button" id='reset14Button' value="RESET"style="width:65px;height:25px;">
+                   <input type="button" id='increment14Button' value="+1"style="width:30px;height:25px;">
+               <div id="box1">
+                   <div id='字型'>其他</div>
+                   <div id='字型1'>อื่นๆ</div>
+                   <div class="backScreen1">
+                   <span id="point15">0</span>
+                   <div class="buttons">
+                   <input type="button" id='discrement15Button' value="-1"style="width:30px;height:25px;">
+                   <input type="button" id='reset15Button' value="RESET"style="width:65px;height:25px;">
+                   <input type="button" id='increment15Button' value="+1"style="width:30px;height:25px;">
+            </h2>
+    </div>
+      <script type="text/javascript" src="counter.js"></script>
+  </body>
+</html>
